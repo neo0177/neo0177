@@ -10,4 +10,3 @@ Every year that is evenly divisible by 4 is a leap year. For example, 2024 is a 
 However, there's an exception. Years that are evenly divisible by 100 are not leap years, unless...
 
 The exception to the exception: If a year is evenly divisible by 400, then it is still considered a leap year. For example, the year 2000 was a leap year despite being divisible by 100 because it is also divisible by 400.
-
