@@ -1,0 +1,87 @@
+<mxfile host="app.diagrams.net" modified="2023-07-13T14:10:58.617Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="brUr0RvA7kfJggNAolh6" version="21.6.2" type="google">
+  <diagram name="Page-1" id="ID-UuDQ9L2k9knJoJ2s3">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WOBBCWuZUlw5QNW92-Il-1" value="Write a program that works out whether if a given number is an odd or even number.&#xa;Input the number and output the result.&#xa;If number is odd, print &quot;This is an odd number.&quot;&#xa;If number is even, print &quot;This is an even number.&quot;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" width="480" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WOBBCWuZUlw5QNW92-Il-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WOBBCWuZUlw5QNW92-Il-2" target="WOBBCWuZUlw5QNW92-Il-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WOBBCWuZUlw5QNW92-Il-2" value="Start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="150" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WOBBCWuZUlw5QNW92-Il-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WOBBCWuZUlw5QNW92-Il-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="375" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WOBBCWuZUlw5QNW92-Il-3" value="Input = num" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="322.5" y="210" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WOBBCWuZUlw5QNW92-Il-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WOBBCWuZUlw5QNW92-Il-6" target="WOBBCWuZUlw5QNW92-Il-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WOBBCWuZUlw5QNW92-Il-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WOBBCWuZUlw5QNW92-Il-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WOBBCWuZUlw5QNW92-Il-6" value="if num % 2&amp;nbsp;" style="shape=rhombus;whiteSpace=wrap;html=1;fixedSize=1;perimeter=rhombusPerimeter;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="322.5" y="280" width="105" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WOBBCWuZUlw5QNW92-Il-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WOBBCWuZUlw5QNW92-Il-8" target="WOBBCWuZUlw5QNW92-Il-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WOBBCWuZUlw5QNW92-Il-8" value="num = no remainder" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="130" y="360" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WOBBCWuZUlw5QNW92-Il-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WOBBCWuZUlw5QNW92-Il-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="545" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WOBBCWuZUlw5QNW92-Il-11" value="num = remainder" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="490" y="360" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WOBBCWuZUlw5QNW92-Il-12" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="278" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WOBBCWuZUlw5QNW92-Il-13" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="278" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WOBBCWuZUlw5QNW92-Il-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="570" as="targetPoint" />
+            <mxPoint x="230" y="470" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="381" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WOBBCWuZUlw5QNW92-Il-15" value="Print Even" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="130" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WOBBCWuZUlw5QNW92-Il-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="580" as="targetPoint" />
+            <mxPoint x="485" y="470" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="381" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WOBBCWuZUlw5QNW92-Il-17" value="Print Odd" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="480" y="440" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WOBBCWuZUlw5QNW92-Il-20" value="Stop" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="337.5" y="570" width="90" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -16,7 +16,3 @@ elif bot == 4 :
     print("Game Over")
 else:
     print("You loose")
-
-
-
-# rock beats scisors, scisors beats paper and paper beats rock
