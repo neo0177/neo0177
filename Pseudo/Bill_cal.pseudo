@@ -1,3 +1,3 @@
 This is a simple bill calculator for the restaurant.
-Get the total bill amount by entering the number of people and the amount of the bill.
+Get the total bill + tip amount by entering the number of people and the amount of the bill.
 Then calculate the amount of the tip and the total amount per person.

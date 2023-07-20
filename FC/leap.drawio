@@ -1,0 +1,132 @@
+<mxfile host="65bd71144e">
+    <diagram id="-pQTD12_Mp77NFOOF-Fb" name="Page-1">
+        <mxGraphModel dx="1395" dy="2311" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="-925" width="110" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.546;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4" target="6">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="300" y="-825" as="targetPoint"/>
+                        <mxPoint x="300" y="-885" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="Start" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="-930" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=none;html=1;" edge="1" parent="1" source="6">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="300" y="-685" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="Input year" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="-865" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8" target="32">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="492.5" y="-635" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="491" y="-720"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="12">
+                    <mxGeometry x="-0.5616" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="15">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="125" y="-630" as="targetPoint"/>
+                        <mxPoint x="235" y="-720" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="135" y="-720"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="21">
+                    <mxGeometry x="-0.5174" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="is it&amp;nbsp; clearlly&lt;br&gt;divisible by 4 ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="235" y="-775" width="120" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Is it clearly divisible&lt;br&gt;by 400" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="585" y="-475" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Not Leap" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Helvetica;fontSize=12;align=center;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+                    <mxGeometry x="75" y="-580" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 24px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #000000;&quot;&gt;Leap year.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Steps :&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #000000;&quot;&gt;Every year that is evenly divisible by &lt;/span&gt;&lt;span style=&quot;color: #323e7d;&quot;&gt;4&lt;/span&gt;&lt;span style=&quot;color: #000000;&quot;&gt; is a leap year. &lt;/span&gt;&lt;span style=&quot;color: #323e7d;&quot;&gt;For&lt;/span&gt;&lt;span style=&quot;color: #000000;&quot;&gt; example, &lt;/span&gt;&lt;span style=&quot;color: #323e7d;&quot;&gt;2024&lt;/span&gt;&lt;span style=&quot;color: #000000;&quot;&gt; is a leap year because it can be divided by &lt;/span&gt;&lt;span style=&quot;color: #323e7d;&quot;&gt;4&lt;/span&gt;&lt;span style=&quot;color: #000000;&quot;&gt; without any remainder.&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #000000;&quot;&gt;However, there's an exception. Years that are evenly divisible by &lt;/span&gt;&lt;span style=&quot;color: #323e7d;&quot;&gt;100&lt;/span&gt;&lt;span style=&quot;color: #000000;&quot;&gt; are &lt;/span&gt;&lt;span style=&quot;color: #323e7d;&quot;&gt;not&lt;/span&gt;&lt;span style=&quot;color: #000000;&quot;&gt; leap years, unless...&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #000000;&quot;&gt;The exception to the exception: &lt;/span&gt;&lt;span style=&quot;color: #323e7d;&quot;&gt;If&lt;/span&gt;&lt;span style=&quot;color: #000000;&quot;&gt; a year is evenly divisible by &lt;/span&gt;&lt;span style=&quot;color: #323e7d;&quot;&gt;400&lt;/span&gt;&lt;span style=&quot;color: #000000;&quot;&gt;, then it is still considered a leap year. &lt;/span&gt;&lt;span style=&quot;color: #323e7d;&quot;&gt;For&lt;/span&gt;&lt;span style=&quot;color: #000000;&quot;&gt; example, the year &lt;/span&gt;&lt;span style=&quot;color: #323e7d;&quot;&gt;2000&lt;/span&gt;&lt;span style=&quot;color: #000000;&quot;&gt; was a leap year despite being divisible by &lt;/span&gt;&lt;span style=&quot;color: #323e7d;&quot;&gt;100&lt;/span&gt;&lt;span style=&quot;color: #000000;&quot;&gt; because it is also divisible by 400.&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1070" y="-910" width="560" height="375" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Leap Year" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Helvetica;fontSize=12;align=center;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="-480" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="Not a Leap" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Helvetica;fontSize=12;align=center;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+                    <mxGeometry x="418" y="-380" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Leap" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Helvetica;fontSize=12;align=center;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+                    <mxGeometry x="805" y="-380" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Yes" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="310" y="-480" as="targetPoint"/>
+                        <mxPoint x="420" y="-530" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="310" y="-530"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="475" y="-380" as="targetPoint"/>
+                        <mxPoint x="585" y="-430" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="475" y="-430"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="26">
+                    <mxGeometry x="-0.3906" y="2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=none;html=1;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="865" y="-380" as="targetPoint"/>
+                        <mxPoint x="745" y="-430" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="865" y="-430"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="27">
+                    <mxGeometry x="-0.3382" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="665" y="-475" as="targetPoint"/>
+                        <mxPoint x="560" y="-530" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="665" y="-530"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="28">
+                    <mxGeometry x="-0.4219" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="Is it clearly divisible&lt;br&gt;by 100" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="418" y="-580" width="145" height="100" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
