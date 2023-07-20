@@ -1,0 +1,16 @@
+<mxfile host="65bd71144e">
+    <diagram id="8xwMOLKLdFMerqCxKnnb" name="Page-1">
+        <mxGraphModel dx="1056" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;div style=&quot;color: rgb(225, 228, 232); background-color: rgb(36, 41, 46); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 24px;&quot;&gt;&lt;div&gt;# Head &lt;span style=&quot;color: #f97583;&quot;&gt;or&lt;/span&gt; Tail&lt;/div&gt;&lt;div&gt;# 1. Head   2. Tail&lt;/div&gt;&lt;div&gt;# &lt;span style=&quot;color: #f97583;&quot;&gt;Input&lt;/span&gt; your choice: &lt;span style=&quot;color: #79b8ff;&quot;&gt;1&lt;/span&gt; &lt;span style=&quot;color: #f97583;&quot;&gt;or&lt;/span&gt; &lt;span style=&quot;color: #79b8ff;&quot;&gt;2&lt;/span&gt;&lt;/div&gt;&lt;div&gt;# &lt;span style=&quot;color: #f97583;&quot;&gt;If&lt;/span&gt; its head &lt;span style=&quot;color: #f97583;&quot;&gt;and&lt;/span&gt; you choose head, you win&lt;/div&gt;&lt;div&gt;# &lt;span style=&quot;color: #f97583;&quot;&gt;If&lt;/span&gt; its tail &lt;span style=&quot;color: #f97583;&quot;&gt;and&lt;/span&gt; you choose tail, you win&lt;/div&gt;&lt;div&gt;# &lt;span style=&quot;color: #f97583;&quot;&gt;If&lt;/span&gt; its head &lt;span style=&quot;color: #f97583;&quot;&gt;and&lt;/span&gt; you choose tail, you lose&lt;/div&gt;&lt;div&gt;# &lt;span style=&quot;color: #f97583;&quot;&gt;If&lt;/span&gt; its tail &lt;span style=&quot;color: #f97583;&quot;&gt;and&lt;/span&gt; you choose head, you lose&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="170" width="440" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="294" y="200" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

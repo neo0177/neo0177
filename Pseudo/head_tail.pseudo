@@ -1,0 +1,8 @@
+# Head or Tail
+# 1. Head   2. Tail
+# Input your choice: 1 or 2
+# If its head and you choose head, you win
+# If its tail and you choose tail, you win
+# If its head and you choose tail, you lose
+# If its tail and you choose head, you lose
+
