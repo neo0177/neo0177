@@ -1,0 +1,135 @@
+<mxfile host="65bd71144e">
+    <diagram id="Cj_u653yvy5AZbZh9Zcy" name="Page-1">
+        <mxGraphModel dx="1878" dy="2525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;div style=&quot;color: rgb(235, 219, 178); background-color: rgb(29, 32, 33); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 24px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt;#&lt;/span&gt;&lt;span style=&quot;color: #83a598;&quot;&gt;Pseduocode&lt;/span&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #83a598;&quot;&gt;FizzBuzz&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt;# 1. &lt;/span&gt;&lt;span style=&quot;color: #83a598;&quot;&gt;Create&lt;/span&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #83a598;&quot;&gt;a&lt;/span&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #fb4934;&quot;&gt;loop&lt;/span&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #83a598;&quot;&gt;that&lt;/span&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #83a598;&quot;&gt;goes&lt;/span&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #83a598;&quot;&gt;from&lt;/span&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #d3869b;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #83a598;&quot;&gt;to&lt;/span&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #d3869b;&quot;&gt;100&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt;# 2. &lt;/span&gt;&lt;span style=&quot;color: #fb4934;&quot;&gt;If&lt;/span&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #83a598;&quot;&gt;the&lt;/span&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #83a598;&quot;&gt;number&lt;/span&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #83a598;&quot;&gt;is&lt;/span&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #83a598;&quot;&gt;divisible&lt;/span&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #83a598;&quot;&gt;by&lt;/span&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #d3869b;&quot;&gt;3&lt;/span&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #8ec07c;&quot;&gt;and&lt;/span&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #d3869b;&quot;&gt;5&lt;/span&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #fb4934;&quot;&gt;print&lt;/span&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #b8bb26;&quot;&gt;&quot;FizzBuzz&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt;# 3. &lt;/span&gt;&lt;span style=&quot;color: #fb4934;&quot;&gt;If&lt;/span&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #83a598;&quot;&gt;the&lt;/span&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #83a598;&quot;&gt;number&lt;/span&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #83a598;&quot;&gt;is&lt;/span&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #83a598;&quot;&gt;divisible&lt;/span&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #83a598;&quot;&gt;by&lt;/span&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #d3869b;&quot;&gt;5&lt;/span&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #fb4934;&quot;&gt;print&lt;/span&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #b8bb26;&quot;&gt;&quot;Buzz&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt;# 4. &lt;/span&gt;&lt;span style=&quot;color: #fb4934;&quot;&gt;If&lt;/span&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #83a598;&quot;&gt;the&lt;/span&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #83a598;&quot;&gt;number&lt;/span&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #83a598;&quot;&gt;is&lt;/span&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #83a598;&quot;&gt;divisible&lt;/span&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #83a598;&quot;&gt;by&lt;/span&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #d3869b;&quot;&gt;3&lt;/span&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #fb4934;&quot;&gt;print&lt;/span&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #b8bb26;&quot;&gt;&quot;Fizz&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt;# 5. &lt;/span&gt;&lt;span style=&quot;color: #fb4934;&quot;&gt;Else&lt;/span&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #fb4934;&quot;&gt;print&lt;/span&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #83a598;&quot;&gt;the&lt;/span&gt;&lt;span style=&quot;color: #f9f5d7;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #83a598;&quot;&gt;number&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="-70" width="600" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="160" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;" edge="1" parent="1" source="4" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Range 1-100" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="240" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="6">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="180" y="370"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="13">
+                    <mxGeometry x="-0.5037" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="5" target="7">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="540" y="370"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="15">
+                    <mxGeometry x="-0.5273" y="-1" relative="1" as="geometry">
+                        <mxPoint y="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="if &lt;br&gt;num / 5 &amp;amp; 3" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="320" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6" target="12">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="180" y="610" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="180" y="880"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="Print&lt;br&gt;FizzBuzz" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="500" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=none;html=1;" edge="1" parent="1" source="7">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="320" y="630" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="320" y="520"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="18">
+                    <mxGeometry x="-0.5143" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7" target="9">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="730" y="520"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="19">
+                    <mxGeometry x="-0.4857" y="1" relative="1" as="geometry">
+                        <mxPoint y="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="if num / 5" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="470" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9" target="11">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="565" y="650"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="if num / 3" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="600" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="11" target="12">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="565" y="880"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="Print Fizz" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="530" y="725" width="70" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="12">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="730" y="980" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="Print num" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="675" y="860" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="26" target="12">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="320" y="880"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="Print Fizz" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="632.5" width="70" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="Stop" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="675" y="980" width="110" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

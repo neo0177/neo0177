@@ -32,9 +32,9 @@ for number in range(1,101) :
     if number % 3 == 0 and number % 5 == 0 :
         print("FizzBuzz") 
     elif number % 3 == 0 :
-        print("Fizz)
+        print("Fizz")
     elif number % 5 == 0 :
-        print("Fizz)
+        print("Buzz")
     else:
-        print(numbe)
+        print(number)
     number +=1
